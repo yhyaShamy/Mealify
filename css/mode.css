@@ -1,0 +1,22 @@
+body:has(#dark-mode:checked) nav .fa-moon {
+  display: none;
+}
+
+body:has(#dark-mode:checked) nav .fa-sun {
+  display: block;
+}
+
+body:has(#dark-mode:checked) {
+  --main-color: #c17e1f;
+  --lighter-color: hsl(35, 72%, 50%);
+  --backgroun-white--color: #252525;
+  --white-color: #171717;
+  --white-color-sp: #000;
+  --header-color: #fff;
+  --black-color: #fff;
+  --light-header-color-sp: #fff;
+}
+
+body:has(#dark-mode:checked) .chefs-img .shape {
+  filter: none;
+}
